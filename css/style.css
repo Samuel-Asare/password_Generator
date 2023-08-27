@@ -1,0 +1,291 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ece9e4;
+}
+
+nav {
+  width: 100%;
+  background-color: #e7e4e4;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav #logo {
+  font-size: 1.6rem;
+}
+
+nav #logo span {
+  color: rebeccapurple;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+#wrapper #title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
+#wrapper #title span {
+  color: #1f6cca;
+}
+
+#wrapper #title_p {
+  text-align: center;
+  padding: 1.5rem;
+  color: #404040;
+}
+
+#wrapper #password_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 250px;
+  text-align: center;
+}
+
+#wrapper #password_div #passord_space {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: .3rem;
+  font-size: 1.3rem;
+  width: 20%;
+  height: 3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#wrapper #password_div #btns {
+  margin-top: 2.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 1.1rem;
+}
+
+#wrapper #password_div #btns #gen_btn {
+  cursor: pointer;
+  padding: .9rem 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background-color: rebeccapurple;
+  border-radius: 3rem;
+  color: rgba(255, 255, 255, 0.907);
+}
+
+#wrapper #password_div #btns #gen_btn:hover, #wrapper #password_div #btns #gen_btn:focus {
+  background-color: #4d2673;
+}
+
+#wrapper #password_div #btns #copy_btn {
+  background-color: #1f6cca;
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.93);
+  padding: .9rem 1rem;
+  font-size: 1rem;
+  border-radius: 3rem;
+  letter-spacing: .1rem;
+  cursor: pointer;
+}
+
+#wrapper #password_div #btns #copy_btn:hover, #wrapper #password_div #btns #copy_btn:focus {
+  background-color: #18549e;
+}
+
+#wrapper #password_length {
+  margin-bottom: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+#wrapper #password_length #length_text {
+  margin-bottom: 1rem;
+  font-weight: lighter;
+  font-size: .955rem;
+}
+
+#wrapper #password_length #strength_and_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#wrapper #password_length #strength_and_btn #length_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+#wrapper #password_length #strength_and_btn #length_wrapper #length {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  gap: 1.2rem;
+}
+
+#wrapper #password_length #strength_and_btn #length_wrapper #length .count_btn {
+  background-color: rebeccapurple;
+  width: 40px;
+  height: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+#wrapper #password_length #strength_and_btn #length_wrapper div #quality {
+  color: rebeccapurple;
+  text-transform: uppercase;
+}
+
+#information {
+  background-color: rebeccapurple;
+  padding: 3.3rem 3rem  2rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+#information #content {
+  width: 80%;
+  color: #ece9e4;
+  text-align: center;
+}
+
+#information #content #big_text {
+  margin: 3rem 0;
+}
+
+#information #content .content-text {
+  padding-top: 1rem;
+  width: 100%;
+  margin: auto;
+}
+
+#information #content .content-text h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1rem;
+  padding: 1rem 0;
+  letter-spacing: .1rem;
+}
+
+#information #content .content-text p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #d6d6d6;
+}
+
+footer {
+  padding: 1rem 2rem;
+  background-color: #e7e4e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+footer h4 {
+  color: #1f6cca;
+  letter-spacing: .1rem;
+}
+
+@media screen and (max-width: 530px) {
+  #wrapper #password_div #passord_space {
+    width: 80%;
+  }
+  #information #content {
+    width: 100%;
+  }
+  #information #content .content-text p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #wrapper #title {
+    width: 80%;
+    margin: auto;
+  }
+  #wrapper #password_div #passord_space {
+    width: 60%;
+  }
+  #information #content {
+    width: 100%;
+  }
+  #information #content .content-text p {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
